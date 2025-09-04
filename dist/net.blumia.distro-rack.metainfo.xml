@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component type="desktop-application">
+  <id>net.blumia.distro-rack</id>
+  <name>DistroRack</name>
+  <name xml:lang="zh_CN">DistroRack</name>
+  <summary>A Qt6-based GUI for managing Distrobox containers</summary>
+  <summary xml:lang="zh_CN">基于 Qt6 的 Distrobox 容器管理图形界面</summary>
+  <metadata_license>MIT</metadata_license>
+  <project_license>MIT</project_license>
+  <description>
+    <p>
+      DistroRack is a modern Qt6-based graphical user interface for managing Distrobox containers.
+      It provides an intuitive way to create, manage, and interact with containerized Linux distributions.
+    </p>
+    <p>
+      With DistroRack, you can:
+    </p>
+    <ul>
+      <li>Create and manage multiple Distrobox containers</li>
+      <li>View container details and status</li>
+      <li>Export applications from containers</li>
+      <li>Monitor container tasks and operations</li>
+      <li>Access container terminals</li>
+    </ul>
+  </description>
+  <developer id="net.blumia">
+    <name>Gary Wang</name>
+  </developer>
+  <requires>
+    <display_length>768</display_length>
+  </requires>
+  <recommends>
+    <control>pointing</control>
+    <control>keyboard</control>
+  </recommends>
+  <launchable type="desktop-id">net.blumia.distro-rack.desktop</launchable>
+  <url type="homepage">https://github.com/blumia/distro-rack</url>
+  <url type="bugtracker">https://github.com/blumia/distro-rack/issues</url>
+  <categories>
+    <category>System</category>
+    <category>Utility</category>
+  </categories>
+  <provides>
+    <binary>distro-rack</binary>
+  </provides>
+  <keywords>
+    <keyword>distrobox</keyword>
+    <keyword>container</keyword>
+    <keyword>virtualization</keyword>
+    <keyword>linux</keyword>
+    <keyword>terminal</keyword>
+  </keywords>
+  <releases>
+    <release type="stable" version="0.2.0" date="2025-09-03T00:00:00Z">
+      <description>
+        <p>This release fixes the following bug:</p>
+        <ul>
+          <li>Ensure refresh action also update the distro details UI</li>
+        </ul>
+        <p>This release includes the following changes:</p>
+        <ul>
+          <li>Make UI look more sane under non-DDE platforms (mainly KDE)</li>
+          <li>Add QML depends for CPack DEB generator</li>
+        </ul>
+        <p>With contributions from:</p>
+        <p>lhdjply</p>
+      </description>
+    </release>
+    <release type="stable" version="0.1.0" date="2025-09-01T00:00:00Z">
+      <description>
+        <p>This release adds the following features:</p>
+        <ul>
+          <li>Ability to manage distrobox containers</li>
+          <li>Ability to export/unexport applications inside a container</li>
+          <li>Support set and use custom terminal emulators</li>
+        </ul>
+      </description>
+    </release>
+  </releases>
+  <content_rating type="oars-1.1"/>
+</component>

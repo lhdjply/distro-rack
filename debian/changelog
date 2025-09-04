@@ -1,5 +1,5 @@
-template-repository (1.0-1) unstable; urgency=medium
+distro-rack (0.2.0-0deepin1) unstable; urgency=medium
 
-  * Initial release
+  * New upstream release.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- lhdjply <lhdjply@126.com>  Thu, 4 Sep 2025 13:27:40 +0800
